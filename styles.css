@@ -26,6 +26,18 @@ nav {
 li {
 
 float: left;
-
+display:inline;
 
 }
+
+li a:hover{
+  background-color:#3333;
+}
+
+#home nav .home > a {
+  pointer-events: none;
+  cursor: default;
+}
+
+
+
